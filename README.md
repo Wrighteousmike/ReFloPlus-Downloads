@@ -14,6 +14,10 @@ Get the latest APK (Android) or IPA (iPhone / iPad) from the **[Releases page](.
 - **iPhone / iPad**: the IPA is unsigned; install it with a sideloading tool such as AltStore, SideStore, Sideloadly or TrollStore.
 - Press **Pairing** on the Flow 8, open ReFlo+, tap **Connect to Mixer**. Close the official FLOW Mix app first: the mixer accepts only one control connection.
 
+## Good to know
+
+ReFlo+ uses its own names for the FX presets, so they may not match the names in the official app. The effects themselves are the mixer's.
+
 ## Support
 
 Found a bug or want a feature? Join the Flow 8 Facebook groups and reach out to me there (Michael Wright). Please say which device and Android / iOS version you use.
