@@ -16,7 +16,7 @@ Get the latest APK (Android) or IPA (iPhone / iPad) from the **[Releases page](.
 
 ## Support
 
-Found a bug or want a feature? Open an issue on this page. Please say which device and Android / iOS version you use.
+Found a bug or want a feature? Join the Flow 8 Facebook groups and reach out to me there (Michael Wright). Please say which device and Android / iOS version you use.
 
 ## Licence and disclaimer
 
