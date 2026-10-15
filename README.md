@@ -1,8 +1,8 @@
 # ReFlo+
 
-A free, touch-first controller for the Behringer Flow 8, built for working live techs. Fader strips for every mix, a drag-to-edit parametric EQ, graphic EQ, FX control, output limiter and delay, a sends matrix, scenes and mute groups, over Bluetooth, on your phone or tablet.
+A free, touch-first controller for the Behringer Flow 8, built for working live techs. Fader strips for every mix, a drag-to-edit parametric EQ with a full-screen mode, an output EQ that works as a nine-band GEQ or fully parametric, FX control, output limiter and delay, a sends matrix, scenes and mute groups, over Bluetooth, on your phone or tablet.
 
-![ReFlo+ mix screen (simulated mixer)](screenshots/01-mix-main.png)
+![ReFlo+ mix screen (demo)](screenshots/01-mix-main.png)
 
 **Free to download and use. No account, no ads, no tracking, no internet needed.**
 
@@ -20,10 +20,10 @@ Tap **Try the demo** on the first screen to run the whole app against a pretend 
 
 ## Screenshots
 
-All taken with the built-in simulator, so the levels are demo values. Tablet in landscape, plus portrait for phones.
+All taken with the built-in demo (a pretend Flow 8), so the levels are demo values. Tablet in landscape first, then phone.
 
 ### Mix
-Fader strips for every mix, with level meters and a red gain-reduction bar. Four mute-group buttons sit beside the mix selector.
+Fader strips for every mix, with level meters and a gain-reduction overlay that hangs from the top of each meter (a light red body with a solid edge showing how far it reaches). Four mute-group buttons sit beside the mix selector.
 
 ![Main mix](screenshots/01-mix-main.png)
 
@@ -41,31 +41,45 @@ Every input against every mix on one screen, FX returns included.
 ![Sends matrix](screenshots/04-sends-matrix.png)
 
 ### Channel
-Headamp, a drag-to-edit parametric EQ with low cut, and the channel's own fader and meter.
+Headamp, a drag-to-edit four-band parametric EQ with low cut (every band has its own frequency, gain and Q), and the channel's own fader and meter.
 
 ![Channel and EQ](screenshots/05-channel-eq.png)
 
-### Output
-Graphic EQ for Main and the monitors. Limiter and delay are locked until you unlock them.
+The amber **Expand** button opens the EQ full screen, with a close-up scale (±15 or ±8 dB), the band editor and the channel fader. **Close** returns you.
 
-![Main output](screenshots/06-output-main.png)
+![Full-screen channel EQ](screenshots/06-eq-fullscreen.png)
 
-![Monitor output](screenshots/07-output-monitor.png)
+### Output EQ
+Each output (Main, Mon 1, Mon 2) has two modes. **GEQ** is nine fixed octave bands: drag up and down, or paint across several bands.
+
+![Output EQ in GEQ mode](screenshots/07-output-geq.png)
+
+**Parametric** makes each of the nine nodes a bell with its own frequency, gain and Q: drag a node (sideways is frequency, up and down is gain), pinch or scroll for Q, or use the editor row. Lock frequencies and Reset are there too, and Main has a Balance slider. Limiter and delay are locked until you unlock them.
+
+![Output EQ in Parametric mode](screenshots/08-output-parametric.png)
+
+![Full-screen output EQ](screenshots/11-output-fullscreen.png)
 
 ### FX
-Presets by name, parameters, routing and the return fader.
+Presets by name, parameters, routing and the return fader. Delay effects get a tempo card, and the TAP button flashes on every beat.
 
-![FX](screenshots/08-fx.png)
+![FX](screenshots/09-fx-tempo.png)
 
 ### Scenes
 The mixer's snapshot slots plus a local library, 50 in total.
 
-![Scenes](screenshots/09-scenes.png)
+![Scenes](screenshots/10-scenes.png)
 
-### Portrait
-On phones and narrow tablets the navigation moves to the bottom.
+### On a phone
+The app fits itself to your screen (Setup has a UI size slider if you want it bigger or smaller). In landscape, all the channels plus Main fit on screen.
 
-<img src="screenshots/10-portrait-mix.png" width="320"> <img src="screenshots/11-portrait-channel.png" width="320">
+![Phone, landscape mix](screenshots/12-phone-landscape-mix.png)
+
+![Phone, landscape channel](screenshots/13-phone-landscape-channel.png)
+
+In portrait the navigation moves to the bottom.
+
+<img src="screenshots/14-phone-portrait-mix.png" width="300"> <img src="screenshots/15-phone-portrait-channel.png" width="300">
 
 ## Good to know
 
