@@ -1,17 +1,18 @@
 # ReFlo+
 
-A free, touch-first controller for the Behringer Flow 8, built for working live techs. Fader strips for every mix, a drag-to-edit parametric EQ with a full-screen mode, an output EQ that works as a nine-band GEQ or fully parametric, FX control, output limiter and delay, a sends matrix, scenes and mute groups, over Bluetooth, on your phone or tablet.
+A free, touch-first controller for the Behringer Flow 8, built for working live techs. Fader strips for every mix, a drag-to-edit parametric EQ with a full-screen mode, an output EQ that works as a nine-band GEQ or fully parametric, FX control, output limiter and delay, a sends matrix, scenes and mute groups, over Bluetooth, on your phone, tablet or Mac.
 
 ![ReFlo+ mix screen (demo)](screenshots/01-mix-main.png)
 
-**Free to download and use. No account, no ads, no tracking, no internet needed.**
+**Free to download and use. No account, no ads, no tracking. It works fully offline: the only network request is an optional check on the first screen for a newer version.**
 
 ## Download
 
-Get the latest APK (Android) or IPA (iPhone / iPad) from the **[Releases page](../../releases/latest)**.
+Get the latest APK (Android), IPA (iPhone / iPad) or Mac zip from the **[Releases page](../../releases/latest)**.
 
 - **Android** (8 or newer): download the APK, open it, allow installs from unknown apps when asked, and choose Install anyway if Play Protect warns.
 - **iPhone / iPad**: the IPA is unsigned; install it with a sideloading tool such as AltStore, SideStore, Sideloadly or TrollStore.
+- **Mac** (macOS 12 or newer, Apple Silicon or Intel): unzip `reflo-plus-mac.zip` and open **ReFlo+**. It isn't notarized by Apple, so the first time macOS will say it can't verify it: open **System Settings > Privacy & Security**, scroll down and click **Open Anyway** (on older macOS, right-click the app and choose Open). Allow Bluetooth when asked. ReFlo+ opens in your web browser and keeps running until you click Quit in its small window.
 - Press **Pairing** on the Flow 8, open ReFlo+, tap **Connect to Mixer**. Close the official FLOW Mix app first: the mixer accepts only one control connection.
 
 ## No mixer? Try the demo
@@ -84,6 +85,10 @@ In portrait the navigation moves to the bottom.
 ## Good to know
 
 ReFlo+ uses its own names for the FX presets, so they may not match the names in the official app. The effects themselves are the mixer's.
+
+## Windows
+
+There is no Windows version, and I tried hard to make one. A Windows PC can connect to the Flow 8 and send it commands, but Windows never passes on the mixer's replies (its levels, state and meters), so the app can't load the mixer. I tried Windows' modern and older Bluetooth interfaces and pairing; none worked, and the cause is in how Windows handles this mixer's Bluetooth service. It works on macOS, Android and iOS. If you know Windows Bluetooth development and have a fix, please tell me on the Facebook groups.
 
 ## Support
 
