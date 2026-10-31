@@ -20,4 +20,4 @@ devcrest.support@gmail.com
 
 ReFlo+ is an independent app, not made, endorsed or supported by any mixer manufacturer. It sends live control commands to a mixer (levels, phantom power, routing). Check settings before use and keep headphone levels safe.
 
-DevCrest (Michael Wright), 37 Old Main Road, Hillcrest, KZN, South Africa. All rights reserved.
+DevCrest (Michael Wright), Old Main Road, Hillcrest, KZN, South Africa. All rights reserved.
