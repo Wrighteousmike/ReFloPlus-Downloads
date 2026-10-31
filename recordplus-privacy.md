@@ -1,6 +1,6 @@
 # ReCord+ Privacy Policy
 
-Effective on first release (October 2026) · Publisher: DevCrest (Michael Wright), devcrest.support@gmail.com, 37 Old Main Road, Hillcrest, KZN, South Africa
+Effective on first release (October 2026) · Publisher: DevCrest (Michael Wright), devcrest.support@gmail.com, Old Main Road, Hillcrest, KZN, South Africa
 
 **Short version: ReCord+ does not collect, send, sell or share any personal data. It has no accounts, no analytics, no advertising and no internet access.**
 
