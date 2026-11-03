@@ -8,7 +8,8 @@ Effective on first release of version 2 · Publisher: DevCrest (Michael Wright),
 - **Mixer connection.** The App connects to your mixer over Bluetooth Low Energy and exchanges mixer settings and meter levels with it. This stays between your device and your mixer.
 - **Stored on your device only.** Your preferences (language, theme, display size), the Custom page layout, scene library, mute groups, channel names you save locally, and a short log for troubleshooting are saved in the App's private storage on your device. We cannot see them. Deleting the App deletes them. Scene files you export are saved where you choose.
 - **No internet.** The App does not connect to the internet and has no servers of ours behind it. (On Android the App does not request the Internet permission.)
-- **Bluetooth permission.** Android and iOS ask for Bluetooth (and, on some Android versions, location, which Android requires to scan for Bluetooth devices) so the App can find the mixer. The App does not use your location. iOS shows our Bluetooth usage text when asking.
+- **Bluetooth permission.** Android, iOS and macOS ask for Bluetooth (and, on some Android versions, location, which Android requires to scan for Bluetooth devices) so the App can find the mixer. The App does not use your location. iOS shows our Bluetooth usage text when asking.
+- **Mac.** The Mac app shows its screen in its own window, served from your computer's own local address (127.0.0.1), so nothing leaves your computer. macOS asks for Bluetooth permission so the App can find the mixer, and for access to a folder or file only when you export or import scenes.
 - **Children.** The App is not directed at children and collects nothing from anyone.
 
 ## Stores
