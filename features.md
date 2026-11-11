@@ -66,6 +66,8 @@ A blank page that you build yourself. Tap Edit, then Add, and put on exactly the
 - **Mute all** and **Clear solo:** one-press safety buttons.
 - **Scene changer:** previous and next snapshot on the mixer.
 - **Text label:** a heading or note, such as a song name.
+- **Analogue channel strip (2.0.8):** one input as a console strip, with big EQ knobs, gain, low cut, compressor, pan, a fader and a segmented level meter. It scales to the size of the widget. Hold the bar at the bottom to open that channel's EQ.
+- **Macro knob (2.0.8, experimental):** one slider that moves up to four controls, each along a curve you draw.
 - Faders can be rotated to lie on their side and shrunk down to one row or one column.
 
 ## Scenes
