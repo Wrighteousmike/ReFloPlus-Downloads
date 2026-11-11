@@ -39,7 +39,7 @@ ReFlo+ is built for people who run sound for a living or for fun and want more t
 ## Output page
 
 - Main, Mon 1 and Mon 2 each have a master strip and output options.
-- 9-band graphic EQ with fader-style bands, up to 15 dB either way, or a parametric EQ with draggable nodes. Both have Flat, and the parametric mode has Reset and Lock frequencies.
+- 9-band graphic EQ with fader-style bands, up to 15 dB either way, or a parametric EQ with draggable nodes. The parametric mode has Lock frequencies, Reset and Flat.
 - Limiter and delay, locked by default so they can't be nudged by accident.
 - **Delay calculator:** enter the extra distance to a speaker (metres or feet) and the air temperature, and ReFlo+ works out the delay to set.
 - Main balance, a -10 dBV pad, and pre- or post-fader taps with stereo link on the monitors.
