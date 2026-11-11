@@ -6,6 +6,10 @@ ReFlo+ is being released on the **Apple App Store** and **Google Play**. Search 
 
 Earlier free downloads and sideload packages that were published on this page have been withdrawn. Please get the app from the stores.
 
+## Features
+
+See the full list of features, with screenshots: **[ReFlo+ features](features)**
+
 ## Privacy
 
 ReFlo+ does not collect, send, sell or share any personal data. It has no accounts, no analytics, no advertising and no internet access.
