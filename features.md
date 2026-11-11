@@ -11,6 +11,7 @@ ReFlo+ is built for people who run sound for a living or for fun and want more t
 ## At a glance
 
 - **Sends matrix:** every channel and every mix in one grid.
+- **Gains on faders:** the preamp gain of every input on a row of faders, so you set them all in one place.
 - **Custom page:** build your own control surface from widgets such as Headphones level, Scene changer, Fade and Mute groups.
 - **Gain reduction on the faders:** see the compressor (or limiter) working on every strip.
 - **Full channel EQ:** drag the EQ on a graph, with shelving on the outer bands, plus copy and paste between channels.
@@ -24,6 +25,7 @@ ReFlo+ is built for people who run sound for a living or for fun and want more t
 - The tabs at the top choose which mix the faders control: Main, Mon 1, Mon 2, FX 1 and FX 2.
 - **Sends matrix:** one grid showing every channel against every mix. Drag a cell sideways to change a send, and use the chip on an FX row to switch that route on or off.
 - **Gain reduction on every strip:** a red marker shows how much the compressor is reducing the level, and on a master it shows the limiter.
+- **Gains on faders:** a Gains page puts the preamp gain of every input on its own fader (-20 to +60 dB, in 0.5 dB steps) with a meter and a clip indicator, so you can set all the gains in one place instead of opening each channel. Switch it on under Setup, Advanced, Enable Gains on Faders. It is off by default, because a gain change affects the whole signal path.
 - Press and hold a channel name to rename it.
 - **Mute groups:** four group buttons. Tap to mute or unmute a group; press and hold to choose its channels and name it.
 - **Mute all** mutes every input and remembers which were live, so one press brings back exactly those.
