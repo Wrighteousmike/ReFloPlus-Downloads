@@ -8,13 +8,13 @@ Earlier free downloads and sideload packages that were published on this page ha
 
 ## Features
 
-See the full list of features, with screenshots: **[ReFlo+ features](features)**
+See the full list of features, with screenshots: **[ReFlo+ features](https://wrighteousmike.github.io/ReFloPlus-Downloads/features)**
 
 ## Privacy
 
 ReFlo+ does not collect, send, sell or share any personal data. It has no accounts, no analytics, no advertising and no internet access.
 
-Full policy: **[Privacy Policy](privacy)**
+Full policy: **[Privacy Policy](https://wrighteousmike.github.io/ReFloPlus-Downloads/privacy)**
 
 ## Support
 
