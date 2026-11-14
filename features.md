@@ -24,11 +24,12 @@ ReFlo+ is built for people who run sound for a living or for fun and want more t
 - Faders, mute and solo for every channel and the main mix, with live level meters (including the FX 1 and FX 2 returns). Tap the dB number under a fader to type an exact level.
 - The tabs at the top choose which mix the faders control: Main, Mon 1, Mon 2, FX 1 and FX 2.
 - **Sends matrix:** one grid showing every channel against every mix. Drag a cell sideways to change a send, and use the chip on an FX row to switch that route on or off.
+- **FX return meters (2.0.9):** FX 1 and FX 2 show a level meter on the Mix page when you select them, on the FX page, and on the Custom page master faders.
 - **Gain reduction on every strip:** a red marker shows how much the compressor is reducing the level, and on a master it shows the limiter.
 - **Gains on faders:** a Gains page puts the preamp gain of every input on its own fader (-20 to +60 dB, in 0.5 dB steps) with a meter and a clip indicator, so you can set all the gains in one place instead of opening each channel. Switch it on under Setup, Advanced, Enable Gains on Faders. It is off by default, because a gain change affects the whole signal path.
 - Press and hold a channel name to rename it.
 - **Mute groups:** four group buttons. Tap to mute or unmute a group; press and hold to choose its channels and name it.
-- **Mute all** mutes every input and remembers which were live, so one press brings back exactly those.
+- **Mute all** works like the mixer's own MUTE button: it mutes inputs 1 to 8 (the four mono inputs and the two stereo pairs) and leaves the BT/USB channel playing. It remembers which were live, so one press brings back exactly those.
 - Fine mode makes faders move at a quarter of the speed. Lock ignores touches on faders and controls so nothing moves by accident.
 
 ## Channel page
@@ -48,7 +49,7 @@ ReFlo+ is built for people who run sound for a living or for fun and want more t
 
 ## FX page
 
-- FX 1 and FX 2 each have presets, a main parameter and a switch, and a Send FX to section that routes the effect to Main, Mon 1 and Mon 2.
+- FX 1 and FX 2 each have presets, a main parameter and a switch, and a Send FX to section that routes the effect to Main, Mon 1 and Mon 2. The return strip beside them has a level meter (2.0.9).
 - **Tap tempo** for presets that follow tempo: the tempo is averaged over your last few taps, the TAP button flashes on every beat and the + and - buttons nudge by 1 BPM.
 - FX return level and mute.
 
@@ -57,7 +58,7 @@ ReFlo+ is built for people who run sound for a living or for fun and want more t
 A blank page that you build yourself. Tap Edit, then Add, and put on exactly the controls you use. Widgets snap to a grid, can be moved and resized, and your layout is saved on the device.
 
 - **Channel fader:** one input channel, with its level in the chosen mix, mute, solo and meter.
-- **Master fader:** the Main, Mon 1, Mon 2, FX 1 or FX 2 master level with mute.
+- **Master fader:** the Main, Mon 1, Mon 2, FX 1 or FX 2 master level with mute and a level meter (see "Output meters" below).
 - **Headphones level:** the headphones output level, the same as the knob on the mixer.
 - **Tap tempo:** FX tempo with tap, nudge buttons and a beat flash.
 - **FX controls:** the current FX preset name, its main parameter and switch.
@@ -69,6 +70,16 @@ A blank page that you build yourself. Tap Edit, then Add, and put on exactly the
 - **Analogue channel strip (2.0.8):** one input as a console strip, with big EQ knobs, gain, low cut, compressor, pan, a fader and a segmented level meter. It scales to the size of the widget. Hold the bar at the bottom to open that channel's EQ.
 - **Macro knob (2.0.8, experimental):** one slider that moves up to four controls, each along a curve you draw.
 - Faders can be rotated to lie on their side and shrunk down to one row or one column.
+
+## Output meters: how many at once
+
+The mixer sends level meters for the inputs and for **one or more outputs**, but it has room for only **five output meter slots** in each update. A stereo meter (left and right) takes two slots, and a mono meter takes one. This matters on the Custom page, where several master faders can be on screen at once.
+
+- On the Mix, FX and Output pages one output is on screen at a time, so it always has a full stereo meter.
+- On the Custom page, ReFlo+ asks the mixer for every output that has a master fader on the page. If they all fit as stereo, they all show stereo meters.
+- If they do not all fit (for example Main, FX 1 and FX 2 together need six slots), FX 2, then FX 1, then Main are metered as **mono, which is the left channel only**. A mono meter shows the left channel's level on both bars.
+- All five outputs (Main, FX 1, FX 2, Mon 1 and Mon 2) fit together as mono. A sixth meter slot does not exist, so there is no way around the limit.
+- A master fader widget whose output is not being metered shows no meter instead of a wrong one.
 
 ## Scenes
 
