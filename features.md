@@ -21,7 +21,7 @@ ReFlo+ is built for people who run sound for a living or for fun and want more t
 
 ## Mix page
 
-- Faders, mute and solo for every channel and the main mix, with live level meters. Tap the dB number under a fader to type an exact level.
+- Faders, mute and solo for every channel and the main mix, with live level meters (including the FX 1 and FX 2 returns). Tap the dB number under a fader to type an exact level.
 - The tabs at the top choose which mix the faders control: Main, Mon 1, Mon 2, FX 1 and FX 2.
 - **Sends matrix:** one grid showing every channel against every mix. Drag a cell sideways to change a send, and use the chip on an FX row to switch that route on or off.
 - **Gain reduction on every strip:** a red marker shows how much the compressor is reducing the level, and on a master it shows the limiter.
